@@ -1,0 +1,10 @@
+{
+  "name": "Personalized Networking Assistant",
+  "description": "An AI-powered Capstone Project that analyzes professional event agendas, extracts key themes, generates highly customized conversation starters/pitches, and validates claims with Wikipedia.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
