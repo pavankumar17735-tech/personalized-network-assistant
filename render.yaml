@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: personalized-networking-assistant
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: bun run build
+    startCommand: bun run start
+    envVars:
+      - key: NODE_ENV
+        value: production
